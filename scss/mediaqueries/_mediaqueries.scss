@@ -1,0 +1,28 @@
+@media only screen and (max-width:790px) {
+    ul li {
+        width: 100%;
+        @include myp(0,16px);
+        text-align: left;
+        display: none;
+    }
+
+    .hide {
+        display: block !important;
+    }
+
+    #redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #redes a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .inspoText {
+        text-align: center;
+        @include myp(0,10px);
+    }
+}
